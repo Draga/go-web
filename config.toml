@@ -15,7 +15,7 @@ theme = "hugo-theme-air"
   # authorwebsite = "https://chiodino.uk"
   bio= "Web dev"
   # logo = "images/phoenix_world.png"
-  # googleAnalyticsUserID = "UA-64985747-4"
+   googleAnalyticsUserID = "UA-77712099-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feedly.com/i/subscription/feed/https://syui.github.io/atom.xml"
   githubName = "draga"
