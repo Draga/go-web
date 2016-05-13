@@ -1,5 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://chiodino.uk"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "Stefano Chiodino"
 
 theme = "hugo-theme-air"
