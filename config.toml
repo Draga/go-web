@@ -5,7 +5,7 @@ paginate = 5
 DisqusShortname = "chiodino"
 Copyright = "All rights left - 2016"
 canonifyurls = true
-theme = "hugo-theme-air"
+theme = "hugo-theme-bleak"
 
 [params]
   description = "My personal website"
