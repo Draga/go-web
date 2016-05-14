@@ -50,6 +50,8 @@ As expected enabling https is taking its toll. The server can't accommodate less
 I've then enabled Google's PageSpeed module for nginx and enabled every performance related filter!
 
 I've enabled 27 extra filters on top of the 34 enabled by default, leaving just 7 out that were just for compatibility or counterproductive, hell I've even enabled the filter to make the G analytics script async when it's already implemented that way.
+
+Result: a quite dramatic 150 clients/sec :D
 <div style="width: 600px;">
 <iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/9c07ef57ce5b1066d9637f88f0df6869/widget/results/ee611dc52b983f1aa077d97222ea4034'></iframe>
 <div style="width: 100%; text-align: right;">
