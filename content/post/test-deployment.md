@@ -6,7 +6,7 @@ draft = false
 image = ""
 menu = ""
 share = true
-slug = "post-title"
+slug = "test-deployment"
 tags = ["tag1", "tag2"]
 title = "test deployment"
 

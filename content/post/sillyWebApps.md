@@ -5,7 +5,7 @@ date = "2016-05-11T21:50:30+01:00"
 image = ""
 menu = ""
 share = true
-slug = "post-title"
+slug = "silly-web-apps"
 tags = ["tag1", "tag2"]
 title = "sillyWebApps"
 
