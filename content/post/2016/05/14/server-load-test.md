@@ -39,7 +39,7 @@ Don't let the number in the graph fools you, clients can be connected for more t
 ## Enable strong HTTPS
 <a href="https://www.ssllabs.com/ssltest/analyze.html?d=https%3A%2F%2Fstefano.chiodino.uk" target="_blank">How strong you say?</a>
 
-As expected enabling https is taking its toll. The server can no accommodate  less than half of the requests, "just" 4.000.
+As expected enabling https is taking its toll. The server can't accommodate less than half of the requests, "just" 4.000.
 <div style="width: 600px;">
 <iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/widget/results/5a2e305c2a3a89359944d97bfb714fc3'></iframe>
 <div style="width: 100%; text-align: right;">
