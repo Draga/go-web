@@ -88,3 +88,6 @@ dedup_inlined_images
 lazyload_images
 insert_dns_prefetch
 ```
+
+## Brotli
+Loader.io doesn't support brotli unfortunately :(
