@@ -89,5 +89,18 @@ lazyload_images
 insert_dns_prefetch
 ```
 
-## Brotli
-Loader.io doesn't support brotli unfortunately :(
+## Brotli (max compression)
+Just add Accept-Encoding: br to loader.io request headers and... 75 clients / sec. Not bad considering that I've enabled the maximum (11) level of compression!
+<div style="width: 600px;">
+<iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/widget/results/073bfe136242a8a7479c78c713c92c53'></iframe>
+<div style="width: 100%; text-align: right;">
+<a href="http://loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/results/073bfe136242a8a7479c78c713c92c53" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
+</div></div>
+
+And if you are curious about the compression my homepage file sizes are:
+
+| Algorithm | Size |
+|-----------|------|
+| none      | 9508 |
+| gzip      | 3344 |
+| brotli    | 2732 |
