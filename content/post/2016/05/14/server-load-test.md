@@ -10,6 +10,7 @@ share = true
 slug = "server-load-test"
 tags = ["server", "nginx", "digitalocean"]
 title = "Server load test"
+description = "Load testing a $5 Digitalocean server"
 +++
 
 I've recently tried <a href="https://m.do.co/c/875cd23a5c97" target="_blank">Digitalocean</a> hosting and decided to host this blog on it. I'm running a $5 / month server, or droplet as they call it, with 1 CPU, 512 MB of ram, 20 GB SSD and 1 TB of bandwidth. You even get $10 credit when you sign up, sweet!
