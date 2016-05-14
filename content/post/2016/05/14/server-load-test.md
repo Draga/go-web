@@ -8,7 +8,7 @@ image = "images/loadTest.png"
 menu = ""
 share = true
 slug = "server-load-test"
-tags = ["server", "nginx", "digitalocean"]
+tags = ["server", "nginx", "digitalocean", "https", "brotli", "load test"]
 title = "Server load test"
 description = "Load testing a $5 Digitalocean server"
 +++
@@ -97,7 +97,7 @@ Just add Accept-Encoding: br to loader.io request headers and... 75 clients / se
 <a href="http://loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/results/073bfe136242a8a7479c78c713c92c53" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
 </div></div>
 
-And if you are curious about the compression my homepage file sizes are:
+..and, if you are curious about the compression, my homepage file sizes are (method from <a href="https://hacks.mozilla.org/2015/11/better-than-gzip-compression-with-brotli" target="_blank">Mozilla's brotli post </a>):
 
 | Algorithm | Size |
 |-----------|------|
