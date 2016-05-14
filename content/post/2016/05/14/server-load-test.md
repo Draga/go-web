@@ -36,7 +36,9 @@ Don't let the number in the graph fools you, clients can be connected for more t
 <a href="https://loader.io/reports/d7bd6935223fa63bf482b2601c07b593/results/1633f8b52732dee9fcfed8836753c9a1" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
 </div></div>
 
-## Enable <a href="https://www.ssllabs.com/ssltest/analyze.html?d=https%3A%2F%2Fstefano.chiodino.uk">strong HTTPS<a/>
+## Enable strong HTTPS
+<a href="https://www.ssllabs.com/ssltest/analyze.html?d=https%3A%2F%2Fstefano.chiodino.uk" target="_blank">How strong you say?</a>
+
 As expected enabling https is taking its toll. The server can no accommodate  less than half of the requests, "just" 4.000.
 <div style="width: 600px;">
 <iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/widget/results/5a2e305c2a3a89359944d97bfb714fc3'></iframe>
