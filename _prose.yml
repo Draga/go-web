@@ -7,32 +7,32 @@ prose:
         field:
           element: "text"
           label: "Title"
-          placeholder: "The title that your readers see on the page."
+          value: "The title that your readers see on the page."
       - name: "description"
         field:
           element: "textarea"
           label: "Description"
-          placeholder: "The meta description - often used by Google in search results page."
-#      - name: "author"
-#        field:
-#          element: "textarea"
-#          label: "Author"
-#          placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
+          value: "The meta description - often used by Google in search results page."
+      - name: "author"
+        field:
+          element: "textarea"
+          label: "Author"
+          value: "Must be in format FirstnameLastname - e.g. JohnGriffin"
       - name: "slug"
         field:
           element: "text"
           label: "Slug"
-          placeholder: "The last part of the URL."
+          value: "The last part of the URL."
       - name: "date"
         field:
           element: "text"
           label: "Date"
-          placeholder: CURRENT_DATETIME
+          value: CURRENT_DATETIME
       - name: "image"
         field:
           element: "text"
           label: "Header Image"
-          placeholder: "Full-width header image - e.g. /images/myfile.png"
+          value: "Full-width header image - e.g. /images/myfile.png"
       - name: "tags"
         field:
           element: "multiselect"
@@ -40,7 +40,7 @@ prose:
           options:
             - name: "Blog"
               value: "blog"
-          alterable: True
+          value: True
     static:
       - name: "url"
         field:
