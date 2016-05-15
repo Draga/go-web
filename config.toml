@@ -10,7 +10,7 @@ theme = "hugo-theme-bleak"
 
 [params]
   description = "My personal website"
-  cover = "images/cover.jpg"
+  cover = "/images/cover.jpg"
   author = "Stefano Chiodino"
   authorlocation = "UK"
   # authorwebsite = "https://chiodino.uk"
