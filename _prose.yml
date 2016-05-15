@@ -27,7 +27,7 @@ prose:
         field:
           element: "text"
           label: "Date"
-          placeholder: "Date in format yyyy-mm-dd."
+          placeholder: CURRENT_DATETIME
       - name: "image"
         field:
           element: "text"
