@@ -59,35 +59,8 @@ Result: a quite dramatic 150 clients/sec :D
 </div></div>
 
 Here is the list of filters that I've enabled:
-```
-responsive_images
-outline_css
-outline_javascript
-move_css_above_scripts
-move_css_to_head
-rewrite_style_attributes
-prioritize_critical_css
-make_google_analytics_async
-canonicalize_javascript_libraries
-inline_google_font_css
-local_storage_cache
-convert_to_webp_animated
-insert_image_dimensions
-inline_preview_images
-resize_mobile_images
-remove_comments
-collapse_whitespace
-elide_attributes
-extend_cache_pdfs
-sprite_images
-rewrite_domains
-trim_urls
-remove_quotes
-defer_javascript
-dedup_inlined_images
-lazyload_images
-insert_dns_prefetch
-```
+
+{{< gist draga 00114415fcd0971cc132c679dfdfc83a >}}
 
 ## Brotli (max compression)
 Just add Accept-Encoding: br to loader.io request headers and... 75 clients / sec. Not bad considering that I've enabled the maximum (11) level of compression!
