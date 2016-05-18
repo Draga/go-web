@@ -127,6 +127,8 @@
               {{ if .IsPage }}
               <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
               {{ end }}
+              {{ if .Site.Menus.main }}
               <a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
+              {{ end }}
             </div>
           </nav>
