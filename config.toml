@@ -7,6 +7,8 @@ disqus_identifier = "chiodino"
 Copyright = "All rights left - 2016"
 canonifyurls = true
 theme = "hugo-theme-bleak"
+#pygmentsstyle = "default"
+pygmentsuseclasses = true
 
 [params]
   description = "My personal website"
