@@ -60,7 +60,35 @@ Result: a quite dramatic 150 clients/sec 😀
 
 Here is the list of filters that I've enabled:
 
-{{< gist draga 00114415fcd0971cc132c679dfdfc83a >}}
+{{< highlight nginx >}}
+pagespeed EnableFilters responsive_images;
+pagespeed EnableFilters outline_css;
+pagespeed EnableFilters outline_javascript;
+pagespeed EnableFilters move_css_above_scripts;
+pagespeed EnableFilters move_css_to_head;
+pagespeed EnableFilters rewrite_style_attributes;
+pagespeed EnableFilters prioritize_critical_css;
+pagespeed EnableFilters make_google_analytics_async;
+pagespeed EnableFilters canonicalize_javascript_libraries;
+pagespeed EnableFilters inline_google_font_css;
+pagespeed EnableFilters local_storage_cache;
+pagespeed EnableFilters convert_to_webp_animated;
+pagespeed EnableFilters insert_image_dimensions;
+pagespeed EnableFilters inline_preview_images;
+pagespeed EnableFilters resize_mobile_images;
+pagespeed EnableFilters remove_comments;
+pagespeed EnableFilters collapse_whitespace;
+pagespeed EnableFilters elide_attributes;
+pagespeed EnableFilters extend_cache_pdfs;
+pagespeed EnableFilters sprite_images;
+pagespeed EnableFilters rewrite_domains;
+pagespeed EnableFilters trim_urls;
+pagespeed EnableFilters remove_quotes;
+pagespeed EnableFilters defer_javascript;
+pagespeed EnableFilters dedup_inlined_images;
+pagespeed EnableFilters lazyload_images;
+pagespeed EnableFilters insert_dns_prefetch;
+{{< /highlight >}}
 
 ## Brotli (max compression)
 Just add Accept-Encoding: br to loader.io request headers and... 75 clients / sec. Not bad considering that I've enabled the maximum (11) level of compression!
