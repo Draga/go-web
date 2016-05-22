@@ -30,21 +30,17 @@ The majority of the users must receive the page in < 5 secs. Only the html is lo
 10.000 requests a second! (that is the maximum that loaded.io goes on a free plan)
 
 Don't let the number in the graph fools you, clients can be connected for more than 1 second and therefore count in the next frame.
-<div style="width: 600px;">
-<iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/d7bd6935223fa63bf482b2601c07b593/widget/results/1633f8b52732dee9fcfed8836753c9a1'></iframe>
-<div style="width: 100%; text-align: right;">
-<a href="https://loader.io/reports/d7bd6935223fa63bf482b2601c07b593/results/1633f8b52732dee9fcfed8836753c9a1" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
-</div></div>
+<iframe height='300' frameborder='0' src='//share.loader.io/reports/d7bd6935223fa63bf482b2601c07b593/widget/results/1633f8b52732dee9fcfed8836753c9a1'></iframe>
+<br />
+<a href="https://loader.io/reports/d7bd6935223fa63bf482b2601c07b593/results/1633f8b52732dee9fcfed8836753c9a1" target="_blank">View on loader.io</a>
 
 ## Enable strong HTTPS
 <a href="https://www.ssllabs.com/ssltest/analyze.html?d=https%3A%2F%2Fstefano.chiodino.uk" target="_blank">How strong you say?</a>
 
 As expected enabling https is taking its toll. The server can't accommodate less than half of the requests, "just" 4.000.
-<div style="width: 600px;">
-<iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/widget/results/5a2e305c2a3a89359944d97bfb714fc3'></iframe>
-<div style="width: 100%; text-align: right;">
-<a href="https://loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/results/5a2e305c2a3a89359944d97bfb714fc3" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
-</div></div>
+<iframe height='300' frameborder='0' src='//share.loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/widget/results/5a2e305c2a3a89359944d97bfb714fc3'></iframe>
+<br />
+<a href="https://loader.io/reports/b1133ec4e734ae2b5ee1bdafeb8c3357/results/5a2e305c2a3a89359944d97bfb714fc3" target="_blank">View on loader.io</a>
 
 ## Full on PageSpeed on strong HTTPS
 I've then enabled Google's PageSpeed module for nginx and enabled every performance related filter!
@@ -52,11 +48,9 @@ I've then enabled Google's PageSpeed module for nginx and enabled every performa
 I've enabled 27 extra filters on top of the 34 enabled by default, leaving just 7 out that were just for compatibility or counterproductive, hell I've even enabled the filter to make the G analytics script async when it's already implemented that way.
 
 Result: a quite dramatic 150 clients/sec 😀
-<div style="width: 600px;">
-<iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/9c07ef57ce5b1066d9637f88f0df6869/widget/results/ee611dc52b983f1aa077d97222ea4034'></iframe>
-<div style="width: 100%; text-align: right;">
-<a href="https://loader.io/reports/9c07ef57ce5b1066d9637f88f0df6869/results/ee611dc52b983f1aa077d97222ea4034" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
-</div></div>
+<iframe height='300' frameborder='0' src='//share.loader.io/reports/9c07ef57ce5b1066d9637f88f0df6869/widget/results/ee611dc52b983f1aa077d97222ea4034'></iframe>
+<br />
+<a href="https://loader.io/reports/9c07ef57ce5b1066d9637f88f0df6869/results/ee611dc52b983f1aa077d97222ea4034" target="_blank">View on loader.io</a>
 
 Here is the list of filters that I've enabled:
 
@@ -92,11 +86,9 @@ pagespeed EnableFilters insert_dns_prefetch;
 
 ## Brotli (max compression)
 Just add Accept-Encoding: br to loader.io request headers and... 75 clients / sec. Not bad considering that I've enabled the maximum (11) level of compression!
-<div style="width: 600px;">
-<iframe width='600' height='300' frameborder='0' src='//share.loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/widget/results/073bfe136242a8a7479c78c713c92c53'></iframe>
-<div style="width: 100%; text-align: right;">
-<a href="http://loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/results/073bfe136242a8a7479c78c713c92c53" target="_blank" style="padding: 0 10px 10px 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px;">View on loader.io</a>
-</div></div>
+<iframe height='300' frameborder='0' src='//share.loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/widget/results/073bfe136242a8a7479c78c713c92c53'></iframe>
+<br />
+<a href="http://loader.io/reports/eba586377e1cd2192698b5d5c16fbb90/results/073bfe136242a8a7479c78c713c92c53" target="_blank">View on loader.io</a>
 
 ..and, if you are curious about the compression, my homepage file sizes are (method from <a href="https://hacks.mozilla.org/2015/11/better-than-gzip-compression-with-brotli" target="_blank">Mozilla's brotli post </a>):
 
