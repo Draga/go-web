@@ -16,11 +16,11 @@ pygmentsuseclasses = true
   author = "Stefano Chiodino"
   authorlocation = "UK"
   # authorwebsite = "https://chiodino.uk"
-  bio= "Web dev"
+  bio = "Web dev"
   logo = "/images/logo.png"
   #gravatarHash = "c289fb11da8482d2025eab2be1feb510"
   googleAnalyticsUserID = "UA-77712099-1"
-  ga = "UA-77712099-1"
+  #googleTagManagerID = "GTM-K2STTK"
   disqus = "chiodino"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feedly.com/i/subscription/feed/https://syui.github.io/atom.xml"
