@@ -13,3 +13,5 @@ title = "Forestry.io"
 
 +++
 love preview
+no mobile yet
+can't move posts to another folder
