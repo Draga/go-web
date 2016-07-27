@@ -9,7 +9,7 @@ image = "/forestryio/images/Screenshot from 2016-07-27 21:47:45.png"
 share = true
 slug = "delete-google-passwords"
 tags = ["google", "security", "password"]
-title = "Delete all google stored passwords"
+title = "2016/07/27/Delete all google stored passwords"
 
 +++
 I was trying to delete all the passwords stored in google at {{< exLink "Google passwords" "https://passwords.google.com" >}}, way too many to do manually!
