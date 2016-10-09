@@ -12,7 +12,7 @@ tags = ["hugo", "forestry.io"]
 title = "Forestry.io"
 
 +++
-A reader of [my post on how I use Hugo]({{< relref "post/2016/05/21/hugo-host-and-deployment.md" >}}) pointed out in the comments that it's now possible to write online Hugo posts from {{ exLink Forestry.io "https://forestry.io" }}. I've been playing with it and I'm currently using it to write this very post.
+A reader of [my post on how I use Hugo]({{< relref "post/2016/05/21/hugo-host-and-deployment.md" >}}) pointed out in the comments that it's now possible to write online Hugo posts from {{< exLink Forestry.io "https://forestry.io" >}}. I've been playing with it and I'm currently using it to write this very post.
 
 As far as writing online goes it's a big improvement over scribe.io. I'm just not sure that's enough to make me switch to online writing.
 
