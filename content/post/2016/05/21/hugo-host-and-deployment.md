@@ -10,7 +10,7 @@ share = true
 slug = "hugo-write-deploy-host"
 tags = ["hugo", "git", "github", "deployment", "nginx", "pagespeed"]
 title = "Hugo: write, deploy, host"
-[menu.]
+[menu]
 
 +++
 In this port I'll show you how I write my posts, deploy them to the server, process them with {{< exLink Hugo "https://gohugo.io" >}} and host them on my {{< exLink DigitalOcean "https://m.do.co/c/875cd23a5c97" >}} server.
