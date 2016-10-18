@@ -14,11 +14,11 @@ title = "Delete all google stored passwords"
 +++
 <nav></nav>
 
-I was trying to delete all the passwords stored in google at {{< exLink “Google passwords” “[https://passwords.google.com"](https://passwords.google.com") >}}, way too many to do manually!
+I was trying to delete all the passwords stored in google at {{< exLink “Google passwords” “https://passwords.google.com" >}}, way too many to do manually!
 
 Couldn’t find a solution online so here is my easy one:
 
-*   Go to {{< exLink “Google passwords” “[https://passwords.google.com"](https://passwords.google.com") >}}, sign in to your account.
+*   Go to {{< exLink “Google passwords” “https://passwords.google.com" >}}, sign in to your account.
 *   Open the development tools in your browser, usually with F12\. I’ve used Chrome.
 *   Paste the following code in the console.
 
