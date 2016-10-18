@@ -22,14 +22,4 @@ Couldn’t find a solution online so here is my easy one:
 *   Open the development tools in your browser, usually with F12\. I’ve used Chrome.
 *   Paste the following code in the console.
 
-{{< highlight javascript >}}
-
-// Gets all the elements to be clicked to delete the passwords.
-
-var a = document.getElementsByClassName(“dga”)
-
-<span style="letter-spacing: 0.01em;">// Click all the elements.</span>
-
-<span style="letter-spacing: 0.01em;">for(i=0; i < a.length; i++){a[i].click();}</span>
-
-{{< /highlight >}}
+{{< highlight javascript >}} // Gets all the elements to be clicked to delete the passwords. var a = document.getElementsByClassName(“dga”) // Click all the elements. for(i=0; i < a.length; i++){a[i].click();} {{< /highlight >}}
