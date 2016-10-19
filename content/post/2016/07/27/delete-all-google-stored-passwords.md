@@ -22,13 +22,8 @@ Couldn’t find a solution online so here is my easy one:
 *   Paste the following code in the console.
 
 {{< highlight javascript >}}
-
 // Gets all the elements to be clicked to delete the passwords.
-
 var a = document.getElementsByClassName(“dga”)
-
 // Click all the elements.
-
 for(i=0; i < a.length; i++){a[i].click();}
-
 {{< /highlight >}}
