@@ -28,11 +28,11 @@ What happened is that I don't enforce uploading images in the CMS, but if none i
 
 Solution is to write a variable for the content of the style attribute, something like:
 
-{{< highlight >}}
+{{< highlight c# >}}
 var imageUrl = Model.Image?.Url;
 var style = imageUrl == null
     : string.Empty
     ? $"background-image: url('{imageUrl}');"
-{{</ highlight >}}
+{{< /highlight >}}
 
 https://bugzilla.mozilla.org/show_bug.cgi?id=473528
