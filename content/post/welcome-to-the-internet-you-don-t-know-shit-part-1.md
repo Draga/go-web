@@ -7,7 +7,7 @@ draft = true
 featured = false
 image = "/images/baby-84626.jpg"
 share = true
-slug = "post-title"
+slug = "welcome-to-the-internet-you-don-t-know-shit-part-1"
 tags = ["Welcome to the Internet"]
 title = "Welcome to the Internet: You Don't Know Shit, part 1"
 
@@ -35,4 +35,5 @@ var style = imageUrl == null
     ? $"background-image: url('{imageUrl}');"
 {{< / highlight >}}
 
+## Reference
 https://bugzilla.mozilla.org/show_bug.cgi?id=473528
