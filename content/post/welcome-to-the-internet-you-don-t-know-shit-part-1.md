@@ -5,7 +5,7 @@ date = "2016-11-25T17:59:24+00:00"
 description = "background-image empty URL side-effects"
 draft = true
 featured = false
-image = ""
+image = "/images/baby-84626.jpg"
 share = true
 slug = "post-title"
 tags = ["Welcome to the Internet"]
@@ -33,6 +33,6 @@ var imageUrl = Model.Image?.Url;
 var style = imageUrl == null
     : string.Empty
     ? $"background-image: url('{imageUrl}');"
-{{< /highlight >}}
+{{< / highlight >}}
 
 https://bugzilla.mozilla.org/show_bug.cgi?id=473528
