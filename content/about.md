@@ -1,5 +1,4 @@
 +++
-author = ""
 comments = false
 date = "2016-05-17T20:48:53+01:00"
 description = ""
@@ -9,7 +8,7 @@ draft = false
 menu = "main"
 share = true
 slug = "about"
-#tags = ["tag1", "tag2"]
+#tags = []
 title = "About"
 
 +++
