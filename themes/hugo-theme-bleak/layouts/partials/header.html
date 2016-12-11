@@ -70,6 +70,16 @@
 
     </script>
 
+{{ if .Site.Params.googleTagManagerID }}
+    {{with .Site.Params.googleTagManagerID }}
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{.}}');</script>
+    {{ end }}
+{{ end }}
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -120,6 +130,13 @@
 
 </head>
 <body class="home-template" style="display: none;">
+
+{{ if .Site.Params.googleTagManagerID }}
+    {{with .Site.Params.googleTagManagerID }}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{.}}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {{ end }}
+{{ end }}
+
 <section id="wrapper">
     <div id="ajax-container">
         <nav id="nav" class="nav">
