@@ -1,0 +1,65 @@
+---
+hide_body: false
+fields:
+- name: title
+  default: Post title
+  label: Title
+  hidden: false
+  type: text
+- name: date
+  default: 2014-07-11 10:54:24 +0200
+  label: Date
+  hidden: false
+  type: datetime
+- name: draft
+  default: false
+  label: Draft
+  hidden: false
+  type: boolean
+- name: slug
+  default: post-title
+  label: Slug
+  hidden: false
+  type: text
+- name: tags
+  default:
+  - tag1
+  - tag2
+  label: Tags
+  hidden: false
+  type: tag_list
+- name: image
+  default: ''
+  label: Image
+  hidden: false
+  type: file
+- name: comments
+  default: true
+  label: Comments
+  hidden: false
+  type: boolean
+- name: share
+  default: true
+  label: Share
+  hidden: false
+  type: boolean
+- name: menu
+  default: ''
+  label: Menu
+  hidden: true
+  type: text
+- name: author
+  default: ''
+  label: Author
+  hidden: false
+  type: text
+- name: featured
+  default: false
+  label: Featured
+  hidden: false
+  type: boolean
+- name: description
+  default: ''
+  label: Description
+  hidden: false
+  type: text
