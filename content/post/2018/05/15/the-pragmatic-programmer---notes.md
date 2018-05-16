@@ -523,3 +523,5 @@ Throughout the book you are prompted to visit other parts to expand on an topic.
 	* Come to understand your users’ expectations, then deliver just that little bit more.
 70. Sign Your Work
 	* Craftsmen of an earlier age were proud to sign their work. You should be, too.
+	
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=stefachiod-21&marketplace=amazon&region=GB&placement=020161622X&asins=020161622X&linkId=d4d28fb302a8f4689ac69b68e1a334a7&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
